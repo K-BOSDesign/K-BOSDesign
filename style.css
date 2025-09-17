@@ -38,11 +38,21 @@ p {
     text-align: center;
     font-size: 1.2vw;
 }
+p.footer {
+    font-size: 1vw;
+    color: white;
+}
 
 @font-face {
     font-family: 'Lato';
     src: url('fonts/Lato-Regular.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
 nav {
@@ -57,4 +67,11 @@ nav a {
 }
 nav.home {
     background-color: #75998b00;
+}
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 3vw; 
+    justify-content: center; 
+    margin-bottom: 8px;
 }
