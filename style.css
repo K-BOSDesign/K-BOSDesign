@@ -12,7 +12,8 @@ footer {
     background-color: #013a38;
     color: #ffffff;
     text-align: center;
-    width: 100%;
+    width: 100vw;
+    box-sizing: border-box;
     padding: 10px 0;
     font-family: Lato, sans-serif;
     font-size: 1.05vw;
@@ -32,15 +33,23 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
+h2 {
+    font-family: Lato, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
 p {
     font-family: Lato, sans-serif;
     color: #013a38;
-    text-align: center;
-    font-size: 1.2vw;
+    font-size: 1em;
 }
 p.footer {
-    font-size: 1vw;
+    font-size: 0.75em;
     color: white;
+    text-align: center;
 }
 
 @font-face {
@@ -74,4 +83,53 @@ nav.home {
     gap: 3vw; 
     justify-content: center; 
     margin-bottom: 8px;
+}
+main {
+    width:100%;
+}
+.split-row {
+    display:flex;
+    width:100%;
+}
+.small-box{
+    width: 30%;
+    padding: 1.5%;
+    justify-content: center;
+    align-items: center;
+}
+.large-box{
+    width:62%;
+    padding: 3%;
+    text-align: left;
+}
+.button-container {
+    text-align: center;
+}
+.button {
+    background-color: #E56B48;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+}
+div.green {
+    background-color: #75998b;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+hr.greenbackground {
+    border: 0;
+    height: 4px;
+    border-radius:2px;
+    background-color: #fff;
+    width: 10%;
+    align-self: center;
 }
