@@ -1,6 +1,5 @@
 header.home {
     background-color: #f1f1f1;
-    padding: 20px;
     background-image: url('images/K-BOS Desgin Hero Image.jpg');
     background-size: cover;
     background-position: center;
@@ -41,13 +40,29 @@ h2 {
     text-transform: uppercase;
     text-align: center;
 }
+h3 {
+    font-family: Lato, sans-serif;
+    color: #013a38;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+h4 {
+    font-family: Lato, sans-serif;
+    color: #013a38;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-align: left;
+}
 p {
     font-family: Lato, sans-serif;
     color: #013a38;
     font-size: 1em;
 }
 p.footer {
-    font-size: 0.75em;
+    font-size: 0.9em;
     color: white;
     text-align: center;
 }
@@ -67,16 +82,25 @@ p.footer {
 nav {
     background-color: #75998b;
     padding: 10px;
-    text-align: center;
+    text-align: right;
     color: #fff;
 }
 nav a {
     text-decoration: none;
     color: #fff;
+    text-align: right;
+    padding: 20px;
 }
 nav.home {
     background-color: #75998b00;
+    text-align: right;
+    padding: 20px;
 }
+nav.home a {
+    color: #013a38;
+    padding: 20px;
+}
+
 .footer-icons {
     display: flex;
     align-items: center;
@@ -97,6 +121,10 @@ main {
     justify-content: center;
     align-items: center;
 }
+.middle-box{
+    width: 47%;
+    padding: 1.5%;
+}
 .large-box{
     width:62%;
     padding: 3%;
@@ -112,7 +140,7 @@ main {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.2vw;
+    font-size: 0.9em;
     margin: 4px 2px;
     cursor: pointer;
     border: none;
@@ -132,4 +160,13 @@ hr.greenbackground {
     background-color: #fff;
     width: 10%;
     align-self: center;
+}
+.link {
+    color: #E56B48;        
+    text-decoration: underline;
+    font-size: 1em;
+}
+.link:hover {
+    color: #013a38;         
+    text-decoration: none;
 }
