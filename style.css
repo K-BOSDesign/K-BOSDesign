@@ -3,6 +3,7 @@ header.home {
     background-image: url('images/K-BOS Desgin Hero Image.jpg');
     background-size: cover;
     background-position: center;
+    background-origin: content-box;
     width: 100%;
     height: 20vw;
 }
@@ -42,7 +43,7 @@ h2 {
 }
 h3 {
     font-family: Lato, sans-serif;
-    color: #013a38;
+    color: #fff;
     font-weight: bold;
     margin: 10px 0;
     text-transform: uppercase;
@@ -66,6 +67,10 @@ p.footer {
     color: white;
     text-align: center;
 }
+p.body {
+    padding: 0px 10%;
+    text-align: center;
+}
 
 @font-face {
     font-family: 'Lato';
@@ -83,22 +88,23 @@ nav {
     background-color: #75998b;
     padding: 10px;
     text-align: right;
+    font-weight: bold;
     color: #fff;
 }
 nav a {
     text-decoration: none;
     color: #fff;
     text-align: right;
-    padding: 20px;
+    padding: 10px;
 }
 nav.home {
     background-color: #75998b00;
     text-align: right;
-    padding: 20px;
+    padding: 10px;
 }
 nav.home a {
     color: #013a38;
-    padding: 20px;
+    padding: 10px;
 }
 
 .footer-icons {
@@ -161,6 +167,14 @@ hr.greenbackground {
     width: 10%;
     align-self: center;
 }
+hr.whitebackground {
+    border: 0;
+    height: 4px;
+    border-radius:2px;
+    background-color: #013a38;
+    width: 10%;
+    align-self: center;
+}
 .link {
     color: #E56B48;        
     text-decoration: underline;
@@ -169,4 +183,9 @@ hr.greenbackground {
 .link:hover {
     color: #013a38;         
     text-decoration: none;
+}
+h4 img {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 25px;
 }
